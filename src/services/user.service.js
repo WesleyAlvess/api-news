@@ -83,7 +83,7 @@ async function updateUserService(
     background
   );
 
-  return user;
+  return { message: "User successfully updated!" };
 }
 
 export default {
